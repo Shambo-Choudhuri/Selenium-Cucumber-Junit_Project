@@ -1,0 +1,238 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 569600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksDemoStepDefinition.setup1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 120900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksDemoStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "This is a sample test",
+        "description": "",
+        "id": "sample-hooks-demonstration;this-is-a-sample-test",
+        "after": [
+          {
+            "result": {
+              "duration": 294800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 337500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksDemoStepDefinition.tearDown1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 194858600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user wants to create a new deal",
+            "match": {
+              "location": "HooksDemoStepDefinition.user_wants_to_create_a_new_deal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 338800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on deal page",
+            "match": {
+              "location": "HooksDemoStepDefinition.user_is_on_deal_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 329600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user creates a new deal",
+            "match": {
+              "location": "HooksDemoStepDefinition.user_creates_a_new_deal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 309600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user verifies the deal created",
+            "match": {
+              "location": "HooksDemoStepDefinition.user_verifies_the_deal_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@First"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 568400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksDemoStepDefinition.setup1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 283000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksDemoStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 453900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksDemoStepDefinition.beforeSecond()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "This is for tagged hooks",
+        "description": "",
+        "id": "sample-hooks-demonstration;this-is-for-tagged-hooks",
+        "after": [
+          {
+            "result": {
+              "duration": 95600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksDemoStepDefinition.afterSecond()"
+            }
+          },
+          {
+            "result": {
+              "duration": 255100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksDemoStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 87100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksDemoStepDefinition.tearDown1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 430500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user wants to create a profile",
+            "match": {
+              "location": "HooksDemoStepDefinition.user_wants_to_create_a_profile()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 109000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should land into the profile page",
+            "match": {
+              "location": "HooksDemoStepDefinition.user_should_land_into_the_profile_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3428800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user needs to delete the current profile",
+            "match": {
+              "location": "HooksDemoStepDefinition.user_needs_to_delete_the_current_profile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user can create a profile",
+            "match": {
+              "location": "HooksDemoStepDefinition.user_can_create_a_profile()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@Second"
+          }
+        ]
+      }
+    ],
+    "name": "Sample Hooks Demonstration",
+    "description": "",
+    "id": "sample-hooks-demonstration",
+    "keyword": "Feature",
+    "uri": "C:/Users/user/Documents/EclipseProjects/DemoSeleniumSessionsWithBDDApproach_Junit/src/main/java/com/qa/hubspot/FeatureFiles_BDD/hooksSample.feature"
+  }
+]
